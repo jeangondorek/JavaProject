@@ -1,4 +1,3 @@
-//jean carlos canova gondorek
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Clientes {
@@ -14,7 +13,6 @@ public class Clientes {
 	public void cadastrarclientes() {
 		Scanner scan = new Scanner(System.in);
 		String nom1;
-		int i = 0;
 		int numerocn1;
 		System.out.println("Digite o nome do cliente.");
 		nom1 = scan.nextLine();

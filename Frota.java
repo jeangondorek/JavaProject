@@ -1,4 +1,3 @@
-//jean carlos canova gondorek
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Frota {
@@ -13,7 +12,6 @@ public class Frota {
 
 	public void cadastrarfrota() {
 		Scanner scan = new Scanner(System.in);
-		int i = 0;
 		String marc1;
 		String model1;
 		String plac1;

@@ -1,4 +1,3 @@
-//jean carlos canova gondorek
 import java.util.Scanner;
 import java.util.ArrayList;
 public class Locacao{

@@ -1,6 +1,4 @@
-//jean carlos canova gondorek
 import java.util.Scanner;
-import java.util.ArrayList;
 public class Precos {
 
 	public double valordiaria ;
