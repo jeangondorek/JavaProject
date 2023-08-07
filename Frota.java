@@ -1,17 +1,18 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-public class Frota {
+class Frota {
 
-	public ArrayList <String> marca = new ArrayList<String>();
+	ArrayList <String> marca = new ArrayList<String>();
 
-	public ArrayList <String> modelo = new ArrayList<String>();
+	ArrayList <String> modelo = new ArrayList<String>();
 
-	public ArrayList <String> placa = new ArrayList<String>();
+	ArrayList <String> placa = new ArrayList<String>();
 
-	public ArrayList <Double> quilometragem = new ArrayList<Double>();
+	ArrayList <Double> quilometragem = new ArrayList<Double>();
 
-	public void cadastrarfrota() {
-		Scanner scan = new Scanner(System.in);
+	Scanner scan = new Scanner(System.in);
+
+	void cadastrarfrota() {
 		String marc1;
 		String model1;
 		String plac1;
@@ -31,7 +32,7 @@ public class Frota {
 		System.out.println("\n\n\n");
 	}
 
-	public void listarveiculos() {
+	void listarveiculos() {
 		int inteiro = quilometragem.size();
 		for (int i=0; i < inteiro; i++){
 			System.out.print("Marca: " + marca.get(i));

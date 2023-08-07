@@ -1,14 +1,15 @@
 import java.util.Scanner;
-public class Precos {
+class Precos {
 
-	public double valordiaria ;
+	double valordiaria ;
 
-	public double taxaquilometro;
+	double taxaquilometro;
 
-	public double valorcombustivel;
+	double valorcombustivel;
+	
+	Scanner scan = new Scanner(System.in);
 
-	public void cadastrarprecos() {
-		Scanner scan = new Scanner(System.in);
+	void cadastrarprecos() {
 		System.out.println("Digite o valor da diaria:");
 		valordiaria = scan.nextDouble();
 		System.out.println("Digite o valor da taxa por quilometro: ");
@@ -17,7 +18,7 @@ public class Precos {
 		valorcombustivel = scan.nextDouble();
 		System.out.println("\n\n\n");
 	}
-	public void listarvalores() {
+	void listarvalores() {
 		System.out.println("Valor da diaria: " + valordiaria);
 		System.out.println("Valor da taxa por quilometro: " + taxaquilometro);
 		System.out.println("Valor do litro de combustivel: " + valorcombustivel + "\n\n");

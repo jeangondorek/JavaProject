@@ -1,17 +1,18 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-public class Clientes {
+class Clientes {
 
 	int i1 = 1;
 
-	public ArrayList <Integer> id = new ArrayList <Integer>();
+	ArrayList <Integer> id = new ArrayList <Integer>();
 
-	public ArrayList <String> nome = new ArrayList <String>();
+	ArrayList <String> nome = new ArrayList <String>();
 
-	public ArrayList <Integer> numerocnh = new ArrayList <Integer>();
+	ArrayList <Integer> numerocnh = new ArrayList <Integer>();
 
-	public void cadastrarclientes() {
-		Scanner scan = new Scanner(System.in);
+	Scanner scan = new Scanner(System.in);
+	
+	void cadastrarclientes() {
 		String nom1;
 		int numerocn1;
 		System.out.println("Digite o nome do cliente.");
@@ -25,7 +26,7 @@ public class Clientes {
 		System.out.println("\n\n\n");
 		i1++;
 	}
-	public void listarclientes() {
+	void listarclientes() {
 		int inteiro = id.size();
 		for (int i=0; i < inteiro; i++){
 			System.out.print("Nome: " + nome.get(i));
