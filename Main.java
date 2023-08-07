@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
- class Main {
-    Scanner scan = new Scanner(System.in);
+public class Main {
+    static Scanner scan = new Scanner(System.in);
 	
-    void main(String[] args){
+    public static void main(String[] args){
 		Precos precos = new Precos();
 		Clientes clientes = new Clientes();
 		Frota frota = new Frota();
